@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    node calculator.js
     npm run build
   displayName: 'npm install and build'
